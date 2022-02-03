@@ -1,0 +1,10 @@
+#MacOS
+**/.DS_Store
+
+# sbt specific
+target/
+
+# Scala-IDE specific
+.idea
+.bsp
+*.sc
