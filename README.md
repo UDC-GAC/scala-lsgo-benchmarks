@@ -3,6 +3,8 @@ scala-lsgo-benchmark
 
 [![License](http://img.shields.io/:License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Scala](http://img.shields.io/:Scala-2.13.7-green.svg)]()
+[![DOI](https://zenodo.org/badge/455274023.svg)](https://zenodo.org/badge/latestdoi/455274023)
+
 
 **scala-lsgo-benchmark** is a Scala implementation of the test suite used in the competitions organised by the [IEEE Task Force on Large Scale Global Optimization (LGSO)](http://www.tflsgo.org) as part of the IEEE Congresses on Evolutionary Computation (CEC).
 
