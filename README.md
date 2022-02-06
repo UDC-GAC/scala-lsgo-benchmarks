@@ -133,6 +133,38 @@ lsgo2013.zip(solutions) foreach { case (f, expected) => // every function is zip
 }
 ```
 
+Running the examples in your browser
+------------------------------------
+
+Want to try **scala-lsgo-benchmarks** and you don't have Scala? Run the examples in your browser with [Scastie](https://scastie.scala-lang.org). 
+
+Follow these steps:
+
+1. In Build Settings
+    * Select the version 2.13.8 of Scala.
+    * Add the`-language:reflectiveCalls` property and **scala-lsgo-benchmarks** library dependencies into the Extra Sbt Configuration field. 
+      
+![](screenshots/scastie01.png?raw=true)
+      
+The content of the Extra Sbt Configuration field after editing should be:
+
+```scala
+scalacOptions ++= Seq(
+  "-deprecation",
+  "-encoding", "UTF-8",
+  "-feature",
+  "-unchecked",
+  "-language:reflectiveCalls"
+)
+
+libraryDependencies += "org.apache.commons" % "commons-math3" % "3.3" // this is optional
+libraryDependencies += "io.github.xoanpardo" %% "scala-lsgo-benchmarks" % "0.1.1"
+ ```
+
+2. In the Editor, copy the example you want to run and click on the Save button
+
+![](screenshots/scastie02.png?raw=true)
+
 Additional utilities
 --------------------
 
