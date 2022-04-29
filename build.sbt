@@ -1,7 +1,9 @@
+crossScalaVersions := Seq("2.12.15", "2.13.8")
+
 organization := "io.github.xoanpardo"
 name := "scala-lsgo-benchmarks"
-version := "0.1.1"
-scalaVersion := "2.13.7"
+version := "0.1.2"
+scalaVersion := "2.13.8"
 
 // IntelliJ IDEA flags
 idePackagePrefix := Some("gal.udc.gac.lsgo2013")
